@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>CodeReview3 Pascal Tonsern</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -17,16 +18,17 @@
 			<p>Horsepower:</p>
 		</div>
 		<form class="column flexCon">
-			<input type="text">
-			<input type="text">
-			<input type="text">
-			<input type="text">
-			<div class="button"><h3>calculate</h3></div>
+			<input id="name" type="text">
+			<input id="age" type="text">
+			<input id="country" type="text">
+			<input id="horseP" type="text">
+			<div class="button" id="calcButton"><h3>calculate</h3></div>
 		</form>
 	</div>	
 </main>
 <footer class="flexCon">
-	<div><h3 id="result">Printed calculation goes here</h3></div>
+	<div><h3 id="result"></h3></div>
 </footer>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
